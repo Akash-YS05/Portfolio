@@ -33,7 +33,7 @@
       margin-top: 0;
     }
   
-  @media screen and (min-width: 601px) (max-width: 900px) {
+  @media screen and (min-width: 601px) and (max-width: 900px) {
     .proj {
         flex-wrap: wrap;
         /* padding: 0 22%; */
@@ -56,11 +56,21 @@
         font-size: 3rem;
       } 
       .section_text_p2 {
+        margin-right: 20px;
         width: 100%;
+        text-align: center;
         font-size: 18px;
       }
       .about-container {
-        padding:30%px;
+    
+        /* margin-left: 420px; */
+        width: 100%;
+        display: grid;
+        place-items: center;
+        gap: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 0 5% ;
       }
       #contact
       {
