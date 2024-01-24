@@ -45,7 +45,7 @@
       margin-bottom: 0;
     }
     }
-  @media screen and (min-device-width: 320px) and (max-device-width: 520px) {
+  @media screen and (min-device-width: 144px) and (max-device-width: 520px) {
     section {
       width: fit-content;
     }
@@ -61,17 +61,16 @@
       flex-direction: row;
     }
     .cv-contact {
-      
       display: grid;
       place-items: center;
   }
   
     .socials {
       padding: 0;
-      /* display: flex;
+      display: flex;
       justify-content: center;
       margin-top: 1rem;
-      gap: 1rem; */
+      gap: 1rem;
       
   }
     .about-container {
