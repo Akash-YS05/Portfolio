@@ -41,6 +41,9 @@
     .section_text_p2 {
       font-size: 6rem;
     }
+    #profile {
+      margin-bottom: 0;
+    }
     }
   @media screen and (max-width: 600px) {
     #contact
@@ -66,7 +69,7 @@
     }
   
     .section_text_p2 {
-      font-size: 1.25rem;
+      font-size: 2.5rem;
     }
     .title {
       font-size: 3rem;

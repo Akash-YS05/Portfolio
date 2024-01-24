@@ -85,12 +85,12 @@ span {
 }
 .section_text_p2 {
     text-align: center;
-    font-size: 8rem;
+    font-size: 200px;
     margin-bottom: 1rem;
 }
 .title-name {
     text-align: center;
-    font-size: 4rem;
+    font-size: 4.5rem;
     /* color: #66fcf1; */
     background: linear-gradient(to right,#9491e2, #aff2d8, #919bff, #595cff);
     -webkit-background-clip: text;
