@@ -33,7 +33,7 @@
       margin-top: 0;
     }
   
-  @media screen and (max-width: 900px) {
+  @media screen and (min-width: 601px) (max-width: 900px) {
     .proj {
         flex-wrap: wrap;
         /* padding: 0 22%; */
@@ -45,7 +45,7 @@
       margin-bottom: 0;
     }
     }
-    @media screen and (min-width: 320px) and (max-width: 600px){
+    @media screen and (max-width: 600px){
       .contact-head {
         display: none
       }
@@ -53,10 +53,11 @@
         width: fit-content;
       } */
       .title-name {
-        font-size: 4rem;
+        font-size: 3rem;
       } 
-      .section_text_p2 p {
-        font-size: 0.4rem;
+      .section_text_p2 {
+        width: 100%;
+        font-size: 18px;
       }
       .about-container {
         padding:30%px;
