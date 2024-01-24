@@ -157,7 +157,7 @@ span {
     place-items: center;
 }
 
-#socials {
+.socials {
     padding: 10px;
     display: flex;
     justify-content: center;
