@@ -38,8 +38,8 @@
         flex-direction: column;
         padding: 0 22%;
     }
-    .section__text__p2 {
-      font-size: 1.25rem;
+    .section_text_p2 {
+      font-size: 2rem;
     }
     }
   @media screen and (max-width: 600px) {
@@ -65,7 +65,7 @@
       font-size: 3rem;
     }
   
-    .section__text__p2 {
+    .section_text_p2 {
       font-size: 1.25rem;
     }
     .title {
