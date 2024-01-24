@@ -59,12 +59,16 @@
         font-size: 0.4rem;
       }
       .about-container {
-        padding: 0 10%;
+        padding:10px;
       }
       #contact
       {
         height: 40vh;
       }
+      .proj {
+        flex-wrap: wrap;
+        padding: 0;
+    }
       #profile {
         height: 83vh;
         margin-bottom: 0;
