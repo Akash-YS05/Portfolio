@@ -35,8 +35,8 @@
   
   @media screen and (max-width: 900px) {
     .proj {
-        flex-direction: column;
-        padding: 0 22%;
+        flex-wrap: wrap;
+        /* padding: 0 22%; */
     }
     .section_text_p2 {
       font-size: 3rem;

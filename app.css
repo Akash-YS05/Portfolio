@@ -230,7 +230,7 @@ span {
     border-radius: 50%;
 } */
 
-.frontpic, .backpic, .hosting {
+.frontpic, .backpic {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -239,7 +239,18 @@ span {
     border-radius: 50%;
     margin-top: 25px;
     margin-bottom: 10px;
+}
 
+.version {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 .frontend, .backend, .host {
@@ -251,10 +262,10 @@ i {
     background-color: white;
 }
 
-.tech-skills {
+/* .tech-skills {
     margin-left: 200px;
     margin-right: 200px;
-}
+} */
 
 .html5 {
     background-color: #ff6600;
