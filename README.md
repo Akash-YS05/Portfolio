@@ -6,9 +6,6 @@
     <li>Boostrap</li>
 </ul>
 
-Its still a work in progress as I will add more of my projects once they are ready and deployed.<br>
-
-
-**NOT YET CONFIGURED FOR MOBILE PHONES**
+The Webpage is fully responsive with Media Query CSS properties.
 
 
