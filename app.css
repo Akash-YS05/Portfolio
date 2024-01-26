@@ -7,9 +7,9 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
+/* section {
     margin-bottom: 4rem;
-}
+} */
 
 nav, .nav-links {
     display: flex;

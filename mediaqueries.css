@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
     }
     .about-container {
       flex-wrap: wrap;
@@ -20,8 +20,6 @@
     .section-container {
       display: block;
     }
-    }
-    
     section,
     .section-container {
       height: fit-content;
@@ -31,9 +29,11 @@
     }
     .about-containers {
       margin-top: 0;
+      padding: 0 10%;
     }
-  
-  @media screen and (min-width: 601px) and (max-width: 900px) {
+    }
+    
+    @media screen and (max-width: 900px) {
     .proj {
         flex-wrap: wrap;
     }
@@ -41,10 +41,19 @@
       font-size: 2rem;
     }
     #profile {
-      margin-bottom: 0;
+      height: 83vh;
     }
+    .about-container {
+      padding: 0 10%;
     }
-    @media screen and (max-width: 600px){
+    } 
+    @media screen and (max-width: 420px){
+      html {
+        width: auto;
+      }
+      section {
+        margin-bottom: 0;
+      }
       /* .contact-head {
         display: none
       } */
@@ -56,13 +65,7 @@
       display: flex;
       flex-direction: row;
       }
-      /* .cv-contact {
-        padding-top: 0;
-      }
-      .cv {
-        margin-top: 0;
-        margin-bottom: 10px;
-      } */
+      
       .socials {
         /* margin-top: 0; */
         padding-top: 0;
@@ -102,13 +105,12 @@
       .proj {
         flex-wrap: wrap;
         padding: 0;
-    }
+      }
       #profile {
-        height: 83vh;
+        height: 76vh;
         margin-bottom: 0;
       }
       .about-containers,
-      
       .btn-container {
         flex-wrap: wrap;
       }
@@ -123,67 +125,4 @@
         font-size: 3rem;
       }
     }
-  /* @media screen and (min-device-width: 144px) and (max-device-width: 520px) {
-    section {
-      width: fit-content;
-    }
-    /* .title-name {
-      font-size: 2rem;
-    } */
-    /* .section_text_p2 p {
-      font-size: 0.4rem;
-    }
-    .contact-head {
-      margin-bottom: 20px;
-      display: flex;
-      flex-direction: row;
-    }
-    .cv-contact {
-      display: grid;
-      place-items: center;
-  }
-  
-    .socials {
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      margin-top: 1rem;
-      gap: 1rem;
-      
-  }
-    .about-container {
-      padding: 0 10%;
-    }
-    #contact
-    {
-      height: 40vh;
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    .about-containers,
-    
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    }
-
-    .logo {
-      font-size: 3rem;
-    }
-  
-    .section_text_p2 {
-      font-size: 2.5rem;
-    }
-    .title {
-      font-size: 3rem;
-    }
-    .text-container {
-      text-align: justify;
-    } */
-
   
