@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-      height: 83vh;
+      
       margin-bottom: 3rem;
     }
     .about-container {
@@ -40,28 +40,19 @@
     .section_text_p2 {
       font-size: 2rem;
     }
-    #profile {
-      height: 83vh;
-    }
     .about-container {
       padding: 0 10%;
     }
     } 
     @media screen and (max-width: 420px){
-      html {
+      /* html {
         width: auto;
-      }
+      } */
       section {
         margin-bottom: 0;
       }
-      /* .contact-head {
-        display: none
-      } */
-      /* section {
-        width: fit-content;
-      } */
       .contact-head {
-      /* margin-bottom: 20px; */
+      
       display: flex;
       flex-direction: row;
       }
@@ -96,7 +87,7 @@
         padding: 0 5% ;
       }
       .text-container {
-        width: 100% !important; 
+        width: 100%; 
       }
       #contact
       {
@@ -107,7 +98,7 @@
         padding: 0;
       }
       #profile {
-        height: 78vh;
+        
         margin-bottom: 0;
       }
       .about-containers,
