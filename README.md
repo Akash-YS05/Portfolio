@@ -6,6 +6,6 @@
     <li>Boostrap</li>
 </ul>
 
-The Webpage is fully responsive with Media Query CSS properties.
+The Webpage is fully responsive with Media Query CSS properties. (W.I.P)
 
 
