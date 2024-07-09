@@ -45,9 +45,9 @@
     }
     } 
     @media screen and (max-width: 420px){
-      /* html {
+      html {
         width: auto;
-      } */
+      }
       section {
         margin-bottom: 0;
       }
@@ -102,7 +102,7 @@
         margin-bottom: 0;
       }
       .about-containers,
-      .btn-container {
+      .btn-container, .contact {
         flex-wrap: wrap;
       }
       .nav-links li a {
@@ -115,5 +115,9 @@
       .title {
         font-size: 3rem;
       }
+      .contact {
+        padding: 10px;
+      }
     }
+
   
