@@ -121,6 +121,9 @@ span {
     border-radius: 2rem
 }
  
+.cv-contact a {
+    text-decoration: none;
+}
 .cv {
     font-size: 1.5rem;
     color: #c5c6c7;
@@ -133,6 +136,7 @@ span {
     margin: 10px 18px;
     background: none;
     transition: all 500ms ease;
+    text-align: center;
 }
 .contacts_btn {
     background-color: black;
@@ -343,7 +347,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 70px;
+    margin: 40px 0;
 }
 
 .cont-img {
@@ -354,12 +358,12 @@ i {
     cursor: pointer;
 }
 
-.cont-img-1 {
+/* .cont-img-1 {
     height: 50px;
     width: 50px;
     margin: 20px;
     cursor: pointer;
-}
+} */
 
 /* .contact .icon {
     height: 50px;

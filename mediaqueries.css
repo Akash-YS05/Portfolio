@@ -43,6 +43,19 @@
     .about-container {
       padding: 0 10%;
     }
+    .cont-img {
+      height: 30px;
+      width: 30px;
+      margin: 10px;
+    }
+    .text-container p {
+      text-align: center;
+      padding: 20px;
+      font-size: 1rem;
+    }
+    .detailss-container {
+      font-size: 1rem;
+    }
     } 
     @media screen and (max-width: 420px){
       html {
@@ -63,7 +76,8 @@
         gap: 4px;
       } 
       .title-name {
-        font-size: 3.5rem;
+        font-size: 3rem;
+        padding: 2rem 0;
       } 
       .section_text_p2 {
         width: 100%;
