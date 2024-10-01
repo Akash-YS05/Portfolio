@@ -7,5 +7,6 @@
 </ul>
 
 The Webpage is fully responsive with Media Query CSS properties. (W.I.P)
+*needs to be updated*
 
 
