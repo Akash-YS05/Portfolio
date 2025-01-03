@@ -8,9 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* section {
-    margin-bottom: 4rem;
-} */
 
 nav, .nav-links {
     display: flex;
@@ -190,14 +187,11 @@ span {
 }
 
 .about-container {
-    
-    /* margin-left: 420px; */
     width: 100%;
     display: grid;
     place-items: center;
     gap: 2rem;
     margin-top: 2rem;
-    margin-bottom: 2rem;
     padding: 0 30% ;
 }
 
@@ -230,11 +224,6 @@ span {
     padding: 50px;
     font-size: 1.5rem;
 }
-
-/* .test {
-    background-color: white;
-    border-radius: 50%;
-} */
 
 .frontpic, .backpic {
     display: block;
@@ -312,13 +301,14 @@ i {
     color: white;
     background-color: #0b0c10;
     border: 2px solid #c5c6c7;
-    padding: 40px;
+    padding: 20px;
 }
 
 .proj {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 
 .card-title {
@@ -326,8 +316,9 @@ i {
 }
 
 .card-text {
-    font-size: 1.5rem;
-    padding: 9px;
+    font-size: 1em;
+    padding: 2px;
+    height: 8em;
 }
 
 .btn-custom.btnn {
