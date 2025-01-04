@@ -236,18 +236,6 @@ span {
     margin-bottom: 10px;
 }
 
-.version {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    margin-top: 25px;
-    margin-top: 80px;
-    margin-bottom: 10px;
-}
-
 .frontend, .backend, .host {
     text-align: center;
     color: #45a29e;
@@ -337,30 +325,17 @@ i {
 .contact {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     margin: 40px 0;
 }
 
 .cont-img {
-    height: 50px;
-    width: 50px;
-    margin: 20px;
-    border-radius: 50%;
+    height: 3rem;
+    /* width: 3rem; */
+    margin: 2rem 5rem;
+    /* border-radius: 10%; */
     cursor: pointer;
 }
-
-/* .cont-img-1 {
-    height: 50px;
-    width: 50px;
-    margin: 20px;
-    cursor: pointer;
-} */
-
-/* .contact .icon {
-    height: 50px;
-    width: 50px;
-    margin: 20px;
-} */
 
 .project-container {
     color: white;
