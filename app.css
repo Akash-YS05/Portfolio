@@ -245,11 +245,6 @@ i {
     background-color: white;
 }
 
-/* .tech-skills {
-    margin-left: 200px;
-    margin-right: 200px;
-} */
-
 .html5 {
     background-color: #ff6600;
     border-radius: 5px;
@@ -276,7 +271,7 @@ i {
     align-items: center;
     text-align: center;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     /* box-shadow: 5px 5px 10px white inset; */
 }
 
