@@ -1,5 +1,7 @@
 # Portfolio
-<h1>This is my <a href="https://akashweb005.netlify.app">Portfolio Webpage!</a></h1> <p>The site is made with </p>
+# Check out the better one over here - <a href="https://akassh.tech">click click</a>
+---
+<h1>This is my <a href="https://akashweb005.netlify.app">Portfolio Webpage!</a>(old, and discontinued)</h1> <p>The site is made with </p>
 <ul>
     <li>HTML5</li>
     <li>CSS</li>
